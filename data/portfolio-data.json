@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "title": "Ayoub Abbani | Software Engineer",
+    "description": "Portfolio website showcasing software engineering work and skills"
+  },
+  "personal": {
+    "name": "Ayoub Abbani",
+    "title": "Software Engineer",
+    "location": "Wavre, Belgium",
+    "avatar": "/ayoub-abbani-profile.png",
+    "email": "abbaniayoub@gmail.com",
+    "phone": "+32472701239",
+    "workingHours": "Monday - Friday, 9am - 5pm CET",
+    "availableForWork": true,
+    "badges": ["C/C++", "Python", "Embedded Systems"],
+    "social": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/AyoubAbbani",
+        "icon": "Github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ayoub-abbani/",
+        "icon": "Linkedin"
+      },
+      {
+        "platform": "Portfolio",
+        "url": "https://ayoubabbani.github.io/",
+        "icon": "Globe"
+      },
+      {
+        "platform": "Email",
+        "url": "mailto:abbaniayoub@gmail.com",
+        "icon": "Mail"
+      }
+    ]
+  },
+  "about": {
+    "bio": "Results-driven Software Engineer with 4+ years of cross-industry experience across the Automotive and Aviation sectors. Focused on embedded and application/system-level development, with expertise in C/C++, Python, tooling, SW integration & testing across end-to-end development.",
+    "focus": [
+      "Embedded software development and system-level integration",
+      "Application development with C/C++ and Python",
+      "Test automation and CI/CD pipeline implementation"
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "C1",
+        "level": 90,
+        "flag": "🇬🇧"
+      },
+      {
+        "name": "French",
+        "proficiency": "C1",
+        "level": 90,
+        "flag": "🇫🇷"
+      }
+    ],
+    "interests": [
+      "Embedded Systems",
+      "Software Architecture",
+      "AI & Machine Learning",
+      "Emerging Technologies",
+      "Gaming"
+    ]
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Credentials",
+      "href": "#credentials"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    }
+  ],
+  "experience": [
+    {
+      "title": "C++ Software Engineer",
+      "company": "EUROCONTROL & Thales (via Akkodis)",
+      "period": "06/2023 - Present",
+      "description": "Contributing to the end-to-end system level software development & maintenance of the SASS-C software by building algorithms that provide interoperable top-level functionality to civil and military Air Navigation Service Providers (ANSPs), R&D organizations and the ATM industry, to evaluate and model sensor performance, including Primary & Secondary Surveillance Radar (PSR/SSR), ADS-B, and MLAT data.",
+      "achievements": [
+        "Redesigned Radar Coverage Visualization (VERIF 24.04): Developed a visualization graphic with C++ Qt 5.15/QML, with advanced radar detection range computations (LoS, Visibility, horizon)",
+        "Extended VERIF Inputs (VERIF 24.04.1): Implemented a backend support in C++ for GEOTIFF files, enabling high-resolution radar visualization and reconstruction",
+        "Improved Trajectory Reconstruction (VERIF 24.10): Improved aircraft trajectory simulation through a Deep Learning/RNN submodule, prototyped in Python and implemented in C++",
+        "Implemented Data Import Module (VERIF 24.10): Delivered EDIS, a web/desktop using Python, Electron and Flask, to manage and integrate Flight/GPS data in VERIF-DB"
+      ],
+      "technologies": [
+        "C++17",
+        "Qt5/QML",
+        "TDD",
+        "OOP/D",
+        "GTest",
+        "CMake",
+        "Python",
+        "Flask",
+        "Shell",
+        "SQL",
+        "MariaDB",
+        "Jenkins",
+        "Git",
+        "Linux"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "STELLANTIS (via Expleo)",
+      "period": "01/2022 - 06/2023",
+      "description": "As a Software Engineer, contributed to the development of HiL/SiL Embedded SW & System Validation for Powertrain.",
+      "achievements": [
+        "Designed and maintained in-house software/tools using C/C++, Qt5, and the Win32 API",
+        "Developed automated test scenarios in AutomationDesk using the ASAM XiL API and Python 3, deployed across multiple ECUs and powertrain projects in SIL/HIL environments",
+        "Contributed to vehicle modelling and simulation using Matlab/Simulink",
+        "Maintained comprehensive documentation of test procedures, software versions, and configurations",
+        "Collaborated with global, cross-functional teams including control and validation engineers, operating in an Agile workflow"
+      ],
+      "technologies": [
+        "C/C++",
+        "Python",
+        "ASAM XiL API",
+        "Qt5/QML",
+        "Git",
+        "GitHub",
+        "MATLAB",
+        "CAN",
+        "UDS",
+        "SCALEXIO",
+        "ISO26262"
+      ]
+    },
+    {
+      "title": "Software Integration Engineer",
+      "company": "STELLANTIS",
+      "period": "03/2021 - 12/2021",
+      "description": "As an Embedded Test & Integration Engineer in ICE Projects within the Powertrain Team.",
+      "achievements": [
+        "Developed test strategies and test case scenarios based on system and design specifications",
+        "Executed test plans on HiL benches and/or in-vehicle (ViL) environments",
+        "Created automated test scripts using C/CAPL and Python",
+        "Conducted root cause analysis and documented test results",
+        "Collaborated with cross-functional teams to define and set up the test environment, materials, and requirements"
+      ],
+      "technologies": [
+        "CANalyzer",
+        "C/CAPL",
+        "Python",
+        "ETAS INCA/MDA",
+        "dSPACE ControlDesk",
+        "HIL Bench",
+        "ISO 26262",
+        "UDS/CAN"
+      ]
+    }
+  ],
+  "credentials": {
+    "certifications": [
+      {
+        "name": "National Hackathon Winner",
+        "issuer": "AMSA",
+        "date": "2020/21",
+        "logo": "/amsa-logo.png"
+      }
+    ],
+    "education": [
+      {
+        "degree": "MEng, Engineer's degree in Mechatronics Engineering",
+        "institution": "Sultan Moulay Slimane University",
+        "year": "2018-2021",
+        "logo": "/sultan-moulay-slimane-logo.png"
+      },
+      {
+        "degree": "BSc, Bachelor of Science in Applied Physics",
+        "institution": "Mohammed V University",
+        "year": "2015-2018",
+        "logo": "/mohammed-v-university-logo.png"
+      }
+    ],
+    "skills": [
+      "Embedded Systems",
+      "Software Development",
+      "Test Automation",
+      "System Integration",
+      "CI/CD Pipelines",
+      "HW/SW Interfacing",
+      "SOLID Principles",
+      "Design Patterns"
+    ]
+  },
+  "technicalSkills": {
+    "programming": ["C", "C++ (11,14,17)", "Python", "Bash/Shell Scripting", "Flask", "JavaScript", "Assembly", "Java"],
+    "frameworks": ["Qt5/QML", "STL", "Boost", "Google Test", "Google Mock", "Pytest"],
+    "devOps": ["Git", "Bitbucket", "GitHub", "Jenkins", "Docker", "SonarQube", "CMake", "GDB", "Valgrind"],
+    "embedded": [
+      "Raspberry Pi",
+      "STM32",
+      "Arduino",
+      "ESP32",
+      "ESP8266",
+      "AVR",
+      "PIC",
+      "BeagleBone Black",
+      "CAN",
+      "UART",
+      "SPI",
+      "I2C",
+      "Ethernet",
+      "TCP-IP",
+      "USB"
+    ],
+    "tools": [
+      "dSPACE",
+      "LabVIEW",
+      "MATLAB/Simulink",
+      "ETAS",
+      "VECTOR",
+      "Visual Studio",
+      "VSCode",
+      "QtCreator",
+      "Doxygen",
+      "CATIA V5",
+      "SOLIDWORKS",
+      "Proteus"
+    ]
+  }
+}
